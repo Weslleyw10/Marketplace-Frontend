@@ -1,4 +1,4 @@
-module.exports = {
+const utils = {
     hourToMinutes: (hourMinutes) => {
         const [hour, minutes] = hourMinutes.split(':')
         return parseInt(parseInt(hour) * 60 + parseInt(minutes))
@@ -7,3 +7,5 @@ module.exports = {
         return cpf.replace(/[^0-9]/g, "")
     }
 }
+
+export default utils
