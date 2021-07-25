@@ -1,0 +1,9 @@
+.header-logo {
+    width: 150px;    
+}
+
+.cart-button {
+    position: relative;
+    float: right;
+    z-index: 999;    
+}

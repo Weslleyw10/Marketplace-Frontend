@@ -1,0 +1,30 @@
+.marker {
+    width: 80px;
+    height: 90px;    
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.marker.selected {
+    background: url('../../Assets/marker.png') no-repeat  center center;
+    background-size: auto;
+}
+
+.marker.no-selected {
+    background: url('../../Assets/marker-selected.png') no-repeat  center center;
+    background-size: auto;
+}
+
+.marker-img {
+    width: 62%;
+    position: absolute;
+    top: -4.7px;
+    left: 14.7px;
+    
+    border-radius: 100%;
+}
+
+

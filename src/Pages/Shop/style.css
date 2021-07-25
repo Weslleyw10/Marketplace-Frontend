@@ -1,0 +1,28 @@
+.shop-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: .8rem;
+}
+
+.shop-infos {
+    width: 100%;
+    vertical-align: middle;
+    color: #626264;
+}
+
+.shop-infos .MdStartBorder {
+    color: #facd5d;
+}
+
+.shop-infos span {
+    font-size: 12px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #626264;    
+}
+
+.shop-cover {
+    border-radius: 5px;
+    margin: 10px 0
+}
+
